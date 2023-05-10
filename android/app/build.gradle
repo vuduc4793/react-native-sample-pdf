@@ -97,9 +97,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
     
-    namespace "com.rnboilerplate2023"
+    namespace "com.sample.pdf"
     defaultConfig {
-        applicationId "com.rnboilerplate2023"
+        applicationId "com.sample.pdf"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

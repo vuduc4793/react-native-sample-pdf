@@ -1,4 +1,4 @@
-package com.rnboilerplate2023;
+package com.sample.pdf;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RNBoilerplate2023";
+    return "Sample PDF";
   }
 
   /**

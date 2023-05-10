@@ -19,7 +19,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'RNBoilerplate2023' do
+target 'SamplePDF' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -41,7 +41,7 @@ target 'RNBoilerplate2023' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'RNBoilerplate2023Tests' do
+  target 'SamplePDFTests' do
     inherit! :complete
     # Pods for testing
   end

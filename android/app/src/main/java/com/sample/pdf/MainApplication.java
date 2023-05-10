@@ -1,4 +1,4 @@
-package com.rnboilerplate2023;
+package com.sample.pdf;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
